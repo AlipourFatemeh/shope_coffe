@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #E76F51;
+    --secondary-color:#F8E1DB;
+    --white: #fff;
+    --grey: #D2D2D2;
+    --dark: #3B3735;
+    --app-bg:#FAF4F2;
+    --primary-font: "Roboto", Arial, Helvetica, sans-serif;
+    --primary-font-md: "Roboto Medium", Arial, Helvetica, sans-serif;
+    --secondary-font: "Archivo Black", Arial, Helvetica, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 10px */
+    scroll-behavior: smooth;
+    direction: rtl;
+    
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    background-color: var(--app-bg);
+    direction: rtl;
+}
+
+/*
+
+-- Reset Style --
+
+*/
+
+a {
+    text-decoration: none;
+}
+
+/*
+
+-- Helper Class --
+
+*/
+
+
+/*
+
+-- Component --
+
+*/
+.container-fluid{
+    height: 6rem;
+}
+.contentt{
+    margin-top: 5rem;
+}
+.shoab{
+    width: 100%;
+}
+
+.container text-center--modi{
+  width: 100%;
+}
+li{
+    text-decoration: none;
+}
+.text-body{
+    text-decoration: none;
+
+}
+.card{
+    border: none;
+}
+
+
+
